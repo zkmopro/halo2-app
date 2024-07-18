@@ -22,3 +22,6 @@ halo2-fibonacci = { git = "https://github.com/ElusAegis/halo2-fibonacci-sample.g
 [build-dependencies]
 mopro-ffi = { git = "https://github.com/zkmopro/mopro.git" }
 uniffi = { version = "0.28", features = ["build"] }
+
+[dev-dependencies]
+uniffi = { version = "0.28.0", features = ["bindgen-tests"] }
